@@ -1,0 +1,33 @@
+{
+  "name": "alexa-skill-boilerplate",
+  "version": "1.0.0",
+  "description": "An easy to use Amazon Alexa Skill Boilerplate for fast skill creation",
+  "main": "index.js",
+  "repository": "https://github.com/acucciniello/alexa-skill-boilerplate.git",
+  "author": "Antonio Cuccinielello <antonio.cucciniello16@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && cd test && mocha test.js",
+    "deploy": "claudia create --region us-east-1 --handler index.handler --profile claudia",
+    "upload": "claudia update --profile claudia"
+  },
+  "devDependencies": {
+    "bespoken-tools": "^0.9.45",
+    "chai": "^4.0.2",
+    "claudia": "^2.13.0",
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "alexa-app": "^4.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach",
+      "afterEach",
+      "app"
+    ]
+  }
+}

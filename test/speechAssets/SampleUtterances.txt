@@ -1,0 +1,3 @@
+SampleIntent to say the skill
+SampleIntent to tell me the name
+SampleIntent to recite the time
