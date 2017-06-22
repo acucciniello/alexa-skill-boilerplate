@@ -1,10 +1,12 @@
 # alexa-skill-boilerplate [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard     ) [![Build Status](https://travis-ci.org/acucciniello/alexa-skill-boilerplate.svg?branch=master)](https://travis-ci.org/acucciniello/alexa-skill-boilerplate)
 An easy to use Amazon Alexa Skill Boilerplate for fast skill creation
 
-For In-Depth Explanation on how to use this check out my [blog post]()
+For In-Depth Explanation on how to use this check out my [blog post](http://www.acucciniello.com/How-to-Use-alexa-skill-boilerplate/)
 
 ## Requirements
+
 [Node v8.0.0](https://nodejs.org/en/download/)
+
 [Yarn v0.24.6](https://yarnpkg.com/lang/en/docs/install/)
 
 ## Getting Started
