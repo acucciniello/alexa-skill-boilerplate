@@ -43,7 +43,7 @@ In order to have this properly set up:
 1. Create a folder in your user’s home directory on your computer
 
 ```
-$ mkdir ~/.aws && cd .aws`
+$ mkdir ~/.aws && cd ~/.aws
 ```
 
 2. Create a file called credentials
